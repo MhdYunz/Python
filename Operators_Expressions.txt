@@ -1,0 +1,77 @@
+🔹 What are Operators in Python?
+
+Operators are symbols or keywords used to perform operations on variables and values.
+
+🔹 Types of Operators in Python
+
+Operator Type	Description	Example
+
+Arithmetic	Basic math operations	+, -, *, /, %, //, **
+Comparison	Compare two values	==, !=, >, <, >=, <=
+Logical	Combine conditional statements	and, or, not
+Assignment	Assign values to variables	=, +=, -=, *=
+Bitwise	Operate on bits	`&,
+Membership	Check for membership in a sequence	in, not in
+Identity	Compare object identities	is, is not
+
+🔹 What are Expressions?
+An expression is a combination of variables, operators, and values that evaluates to a single value.
+
+📌 Example:
+
+a = 10
+b = 5
+result = a + b  # Expression: a + b
+
+🔹 Flow Diagram of Operator Evaluation in Python
+
++--------------------+
+|    Expression      |
++--------------------+
+          |
+          v
++---------------------------+
+| Identify the Operators    |
++---------------------------+
+          |
+          v
++---------------------------+
+| Apply Precedence Rules    |
++---------------------------+
+          |
+          v
++---------------------------+
+| Evaluate Left to Right    |
++---------------------------+
+          |
+          v
++---------------------------+
+|       Final Result        |
++---------------------------+
+🔹 Examples
+
+1. Arithmetic Operator
+a = 10
+b = 3
+print(a + b)     # 13
+print(a ** b)    # 1000 (10^3)
+
+2. Comparison Operator
+x = 5
+y = 10
+print(x > y)     # False
+print(x != y)    # True
+
+3. Logical Operator
+x = 10
+print(x > 5 and x < 20)   # True
+
+4. Assignment Operator
+x = 10
+x += 5    # x = x + 5
+print(x)  # 15
+
+5. Membership Operator
+fruits = ['apple', 'banana']
+print('apple' in fruits)     # True
+print('grape' not in fruits) # True
