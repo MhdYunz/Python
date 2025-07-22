@@ -1,1 +1,78 @@
-## Va
+🔸 What is a Variable in Python?
+A variable is like a container that stores a value.
+You can name this container and use it to store different types of data (numbers, text, etc.).
+
+🔸 What is a Value?
+A value is the actual data stored inside the variable.
+Example:
+
+python
+Copy
+Edit
+age = 25
+age is the variable
+
+25 is the value
+
+🔸 Flow Diagram
+
+         +-------------+       stores        +--------+
+         |  Variable   | ------------------> | Value  |
+         |   (age)     |                     |  25    |
+         +-------------+                     +--------+
+
+Python Example
+
+name = "Alice"       # string value
+age = 25             # integer value
+height = 5.6         # float value
+is_student = True    # boolean value
+
+🔸 Key Points
+Concept                 	Description	                            Example
+Variable Name           	Name to refer to stored value	          username
+Assignment	              Use = to assign value to variable     	x = 10
+Reassignment	            Change the value by assigning again	    x = 20
+Dynamic Typing          	Python automatically knows the type	    y = "hello"
+
+✅ Practice Questions
+
+Create a variable to store your name and print it?
+
+Assign your age to a variable and print it?
+
+Store your height in a variable and print it?
+
+Assign True to a variable indicating if you're a student and print it?
+
+Create two variables a = 10 and b = 20, then print their sum?
+
+Change the value of a variable x = 5 to x = 10 and print the new value?
+
+Create variables for your name, age, and city, then print a sentence using all three?
+
+Swap values between two variables and print them?
+
+Assign a string to a variable and print the length of the string?
+
+Create a variable with a decimal value (float) and print its type?
+
+if you want to know the answers refer the variable.py python file in same repository
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
