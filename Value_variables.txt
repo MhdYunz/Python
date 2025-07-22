@@ -57,7 +57,7 @@ Assign a string to a variable and print the length of the string?
 
 Create a variable with a decimal value (float) and print its type?
 
-if you want to know the answers refer the variable.py python file in same repository
+if you want to know the answers refer the variables.py python file in same repository
 
 
 
