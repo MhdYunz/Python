@@ -1,0 +1,92 @@
+1. Create variables to store:
+    Your name, age, height, and whether you are a student (True/False).
+      Print each variable and its type?
+Ans: 
+    name = input("Enter your name: ")
+    age = int(input("Enter your Age: "))
+    height = float(input("Enter your Height: "))
+    student = bool("")
+    print (f"am {name}, am {age} years old, my height is {height} and my student status is {student}")
+    print (type(name))
+    print (type(age))
+    print (type(height))
+    print (type(student))
+Output:
+    Enter your name:  yunu
+    Enter your Age:  28
+    Enter your Height:  5.11
+    am yunu, am 28 years old, my height is 5.11 and my student status is False
+    <class 'str'>
+    <class 'int'>
+    <class 'float'>
+    <class 'bool'>
+
+2. Finding the Types:
+    a = 10
+    b = 3.14
+    c = "Python"
+Ans:
+    a = 10
+    b = 3.14
+    c = "Python"
+    print (type(a))
+    print (type(b))
+    print (type(c))
+Output:
+    <class 'int'>
+    <class 'float'>
+    <class 'str'>
+
+3. Create two boolean variables x=True and y=False. Print the result of:
+  x and y
+  x or y
+  not x
+Ans:
+    x=True  
+    y=False
+    print (x and y) #both condition need to be ture to get true result
+    print (x or y) #any one condition need to be True
+    print (not x) #opposite result
+Output:
+    False
+    True
+    False
+
+4. Add an integer and a float (e.g., 10 + 2.5). Print the result and type.
+Ans:
+  x = 10
+  y = 15.5
+  z = x + y
+  print(z)
+  print (type(z))
+output:
+  25.5
+  <class 'float'>
+
+5. Convert the string "100" into an integer, then add 50 to it.
+Ans:
+  x = "100"
+  y = int(x)+50
+  print (y)
+Output:
+  150
+
+6. Convert the string "45.67" into a float and multiply it by 2.
+Ans:
+  x = "45.67"
+  y = float(x) * 2
+  print(y)
+Output:
+  91.34
+
+7. Take a float number 12.99 and convert it to:
+    Integer using int()
+    String using str()
+Ans:
+  x = 12.99
+  print(int(x))
+  print(str(x))
+output:
+  12
+  12.99
+
