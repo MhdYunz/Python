@@ -1,1 +1,157 @@
-IF:
+Question-1:
+Write a program to check if a number is positive or negative.
+
+Ans:
+try:
+    a = int(input("Enter the number:"))
+    if a < 0:
+        print (f"The number {a} is Negetive")
+    elif a == 0:
+        print ("Zero value")
+    else:
+       print (f"The number {a} is Positive")
+except ValueError:
+    print (f"Enter a valid input")
+
+Output:
+Enter the number: 5
+The number 5 is Positive
+
+Question-2:
+Check whether a number is even or odd.
+
+Ans:
+try:
+    num = int(input("Enter the number:"))
+    if num < 0:
+        print ("the value is Negetive")
+    elif num == 0:
+        print ("Zero value")
+    elif num % 2 == 0:
+        print (f"The number {num} is Even")
+    else:
+       print (f"The number {num} is ODD")
+except ValueError:
+    print (f"Enter a valid input")
+
+Output:
+Enter the number: 100
+The number 100 is Even
+
+
+Question-3:
+Input age and check if the person is eligible to vote (18+).
+Ans:
+Take  numbers and find the largest number using if-else.
+Ans:
+try:
+    age = int(input("Enter the Age:"))
+    if age < 0:
+        print ("the Age is Negetive - invalid")
+    elif age == 0:
+        print ("Zero value")
+    elif age >= 18:
+        print (f"Your Age is {age} - You are Eligible to vote")
+    else:
+       print (f"Your Age is {age} - You are Not-Eligible to vote")
+except ValueError:
+    print (f"Enter a valid input")
+
+Output:
+Enter the Age: 25
+Your Age is 25 - You are Eligible to vote
+
+
+Question-4:
+Write a program to check whether a year is a leap year.
+Ans: 
+try:
+    year = int(input("Enter the Year:"))
+    if year < 0:
+        print ("Negetive - invalid")
+    elif year == 0:
+        print ("Zero value")
+    elif  (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        print (f" {year} is Leap year")
+    else:
+       print (f"{year} not an leap year")
+except ValueError:
+    print (f"Enter a valid input")
+
+Output:
+Enter the Year: 2026
+2026 not an leap year
+
+Question-5:
+Take marks input and assign grades (A/B/C/Fail) using if-elif-else.
+Ans:
+try:
+    g = int(input("Enter the Grade:"))
+    if g <= 40:
+        print ("Fail")
+    elif g <= 55:
+        print ("Grade C")
+    elif g <= 65:
+        print("Grade B")
+    else:
+        print("Grade A")
+except ValueError:
+    print (f"Enter a valid input")
+Output:
+Enter the Grade: 66
+Grade A
+
+Question-6:
+Check if a character is a vowel or consonant.
+Ans:
+x = input("Enter a single letter: ")
+
+if len(x) == 1 and x.isalpha():
+    if x in "aeiouAEIOU":
+        print(f"{x} is a Vowel")
+    else:
+        print(f"{x} is a Consonant")
+else:
+    print("Please enter a single alphabet only.")
+
+Output:
+Enter a single letter:  rr
+Please enter a single alphabet only.
+
+Question-7:
+Write a program to check if a number is divisible by 5 and 11.
+
+Ans:
+try: 
+    x = int(input("Enter the value"))
+    if x % 5 == 0 and x % 11 == 0:
+        print(f"{x} Divisible by 5 and 11")
+    else:
+        print(f"{x} not Divisible by 5 and 11")
+except ValueError:
+    print("Invalid Input")
+Output:
+Enter the value 110
+110 Divisible by 5 and 11
+
+Question-8:
+Input temperature and display:
+>30 → "Hot"
+20-30 → "Warm"
+<20 → "Cold".
+
+Ans:
+try: 
+    temp = float(input("Enter the Temp"))
+    if temp > 30:
+        print("HOT")
+    elif temp <= 20 or temp <=30:
+        print("WARM")
+    elif temp < 20:
+        print("COLD")
+except ValueError:
+    print("Invalid Input")
+
+Output:
+Enter the Temp 25
+WARM
