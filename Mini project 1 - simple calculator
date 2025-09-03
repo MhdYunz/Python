@@ -1,0 +1,32 @@
+print("Choose the Math function to perform")
+print("+, -, *, /")
+
+calc = input("Enter the operation: ")
+
+try:
+    a = int(input("Enter number 1: "))
+    b = int(input("Enter number 2: "))
+
+    if calc == "+":
+        print(f"{a} + {b} = {a+b}")
+    elif calc == "-":
+        print(f"{a} - {b} = {a-b}")
+    elif calc == "*":
+        print(f"{a} * {b} = {a*b}")
+    elif calc == "/":
+        if b != 0:
+            print(f"{a} / {b} = {a/b}")
+        else:
+            print("Error: Division by zero is not allowed")
+    else:
+        print("Invalid operation")
+except ValueError:
+    print("Please enter valid numbers only.")
+
+OUTPUT:
+Choose the Math function to perform
++, -, *, /
+Enter the operation:  *
+Enter number 1:  5
+Enter number 2:  5
+5 * 5 = 25
